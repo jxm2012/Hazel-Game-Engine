@@ -10,6 +10,9 @@ namespace Hazel {
 	
 	void Log::Init()
 	{
+		//logging message chosen by Cherno from spdlog's git
+		//format: timestamp, name of logger, message
+		//set_level is for: Set global log level to debug
 		spdlog::set_pattern("%^[%T] %n: %v%$");
 		s_CoreLogger = spdlog::stdout_color_mt("HAZEL");
 		s_CoreLogger->set_level(spdlog::level::trace);
