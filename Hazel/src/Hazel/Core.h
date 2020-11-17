@@ -1,7 +1,5 @@
 #pragma once
 
-
-
 //in order to use Application class from Hazel, it needs to export 
 //HZ_PLATFORM_WINDOWS = only applies to windows
 #ifdef HZ_PLATFORM_WINDOWS

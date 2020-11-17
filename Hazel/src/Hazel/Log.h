@@ -5,7 +5,6 @@
 #include "Core.h"
 #include "spdlog/spdlog.h"
 
-
 namespace Hazel {
 	class HAZEL_API Log
 	{
