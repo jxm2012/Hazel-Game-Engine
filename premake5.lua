@@ -37,12 +37,13 @@ project "Hazel"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
-		systemversion "latest"
+		systemversion "10.0.17134.0"
 
 		defines
 		{
 			"HZ_PLATFORM_WINDOWS",
-			"HZ_BUILD_DLL"
+			"HZ_BUILD_DLL",
+			"_WINDLL"
 		}
 
 		-- go to bin directory and copy Hazel.dll into sandbox directory
